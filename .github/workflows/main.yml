@@ -30,7 +30,7 @@ jobs:
         cp ../README.md output/readme.txt
         
     - name: Upload
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v3
       with:
         name: "SA.Rainbomizer"
         path: bin/output
